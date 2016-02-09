@@ -125,3 +125,6 @@ p{
 #methodpic{
 	max-width: 50% !important;
 	}
+#linktoscio{
+	text-decoration: underline;
+	}

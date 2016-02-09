@@ -111,3 +111,9 @@ div.container.marketing{
 a{
 	border-bottom: none !important;
 	}
+p{
+	text-indent: 35px;
+	}
+#methodpic{
+	max-width: 50% !important;
+	}

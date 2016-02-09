@@ -174,13 +174,23 @@
 						<span class="image left"><img src="images/devimage1.png" alt="" /></span>
 						<p>NIR spectroscopy has been used for decades in a variety of ways, from laboratory research to evaluation of samples such as food, oils, fabrics and other commodities. Until recently, expansion of NIR to the diverse needs of consumers has been limited by the cost and size of industrial spectrometers. healthSCAN brings the first personalized health product recommendation application of a hand-held spectrometer to consumers.</p>
 						<p>At a molecular level, NIR spectroscopy emits a beam of photons into a sample. Different substances absorb and scanner NIR light to different degrees at various wavelengths. The spectrometer measures the proportion of light that is returned over a wide range of optical wavelengths, allowing the spectrometer to identify and measure the substances present within a sample.  healthSCAN harnesses the molecular power of NIR spectroscopy through advanced machine learning algorithms, allowing detection of the presence of many physiologic substances that play a role in human health.</p>
+<<<<<<< HEAD
 						
 						<section id="recommendation"><h3><strong>Methods for Recommendation</h3></strong><p>
 						<img src="images/evaluate4.png" alt="evaluationmethod" class="image right" id="methodpic"><p> In practice, nutritional or health recommendations are made following definitive medical diagnoses. These diagnoses can only be made by a doctor and are based on physical examination and/or precise laboratory testing. In contrast, healthSCAN NIRS introduces a new type of broad health quantification and recommendation system based on indirect health indicators.</p>
 						<p>In previous NIRS systems, confounding variables limited the precision of measuring a specific metabolite. For example, the precise measurement of glucose is confounded by the presence of cholesterol, uric acid and glycated albumin which absorb light in the same spectrum. Where these features previously prevented the applicability and utilization of NIRS, healthSCAN has innovatively capitalized by using the presence of these substances as additional indicators of overall health. This approach allows healthsCAN to gain a deeper and more informative picture of a user’s dietary condition.</p>
 						</p>
 						</section>
+=======
+						</p>
+>>>>>>> origin/master
 						
+						<section id="recommendation"><h3><strong>Recommendation without Diagnosis</h3></strong><br /><p>
+						<img src="images/evaluate4.png" alt="evaluationmethod" class="image right">Comprehensive nutritional or health recommendations traditionally follow direct measurement of quantities such as blood glucose or cholesterol. Such measurement constitutes medical diagnosis, which requires physical examination by a doctor and/or regulated laboratory testing. 
+						Direct, isolated measurement of these quantities by NIRS is often challenging. For example, the precise measurement of glucose is confounded by the presence of cholesterol, uric acid and glycated albumin, which absorb light in the same spectrum. In machine learning terminology, the `latent quantities' combine to form the `observed features' of spectrum.
+						<p>healthSCAN can offer valuable recommendations without an intermediate medical diagnosis because it does not attempt to isolate and reconstruct the underlying quantities. It successfully makes recommendations based on the observed features while recognizing the involvement of latent quantities. 
+						Furthermore, rather than attempting to fully model the complex process which produces the observed features from the underlying quantities, healthSCAN employs new, robust learning algorithms.   
+						</section>
 					</section>
 
 				</div>

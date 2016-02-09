@@ -1,34 +1,42 @@
 .navbar-brand{
 	color: #FFFFFF !IMPORTANT;
+	font-family: "quicksand";
+	font-weight: bolder;
+	font-size:30px;
 }
 .navbar-inverse {
     /* background-color: #222; */
      border-color: transparent;
 }
 .navbar-inverse .navbar-nav>li>a{
-	color: #ffffff;
+	color: #34332D;
 	}
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-    background-color: rgba(255, 255, 255, 0.28);
-	}
+    background-color: rgba(245, 236, 227, 0.76);
+}
 
 .navbar .active {
 	background-color: rgba(255, 255, 255, 0.8);
 	}
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #000000;
+    color: #fffff;
 	background-color: rgba(255, 255, 255, 0.8);
 	}
 .navbar-inverse .navbar-nav >li>a:hover{
-	color: #000000;
+	color: #ffffff;
 	}
 #navbar li{
 	background-color: transparent !important;
 	}
 #scrollybutton{
+	background-color: transparent !important;
+	font-weight: bolder;
+	text-shadow: 1px 1px 1px grey;
+	}
+#scrollybutton1{
 	background-color: transparent !important;
 	font-weight: bolder;
 	text-shadow: 1px 1px 1px grey;

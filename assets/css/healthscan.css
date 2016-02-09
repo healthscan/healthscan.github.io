@@ -1,6 +1,10 @@
 .navbar-brand{
 	color: #FFFFFF !IMPORTANT;
 }
+.navbar-inverse {
+    /* background-color: #222; */
+     border-color: transparent;
+}
 .navbar-inverse .navbar-nav>li>a{
 	color: #ffffff;
 	}
@@ -26,6 +30,8 @@
 	}
 #scrollybutton{
 	background-color: transparent !important;
+	font-weight: bolder;
+	text-shadow: 1px 1px 1px grey;
 	}
 #header{
 	background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/pages/home/hero.large-adc255aaf7fbd3e3463650149a858beb.jpg"), linear-gradient(45deg, #503510, #C29A57 50%, #FBD391 95%);
@@ -58,8 +64,14 @@ header.major{
 	text-align: center;
     margin-top: 20px;
 	}
-
-
+.image img{
+	border-radius: 0px !important;
+	}
+.image.fit {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
 .flex-container {
   padding: 0;
   margin: 0;
@@ -88,9 +100,14 @@ div.container.marketing{
 	padding-left: 1px !important;
 	padding-right: 1px !important;
 	}
+.evaluationmethod{
+	display: block;
+	margin: 0 auto;
+	width:65%;
+	}
 #footer{
 	    background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #503510, #C29A57 50%, #FBD391 95%);
 		}
 a{
-	text-decoration: none !important;
+	border-bottom: none !important;
 	}

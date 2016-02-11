@@ -42,8 +42,8 @@
 	text-shadow: 1px 1px 1px grey;
 	}
 #header{
-	background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/pages/home/hero.large-adc255aaf7fbd3e3463650149a858beb.jpg"), linear-gradient(45deg, #503510, #C29A57 50%, #FBD391 95%);
-    background-size: auto 110%;
+	background-image: url("../../images/hero.jpg"), linear-gradient(45deg, #503510, #C29A57 50%, #FBD391 95%);
+    background-size: auto 130%;
     background-repeat: no-repeat;
 	background-color: #EEDDC3 !important;
 	}
